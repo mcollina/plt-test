@@ -1,0 +1,1 @@
+ALTER TABLE quotes ADD COLUMN movie_id INTEGER REFERENCES movies(id);
